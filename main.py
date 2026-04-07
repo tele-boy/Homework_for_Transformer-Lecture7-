@@ -161,7 +161,7 @@ def generate(model, prompt):
 if __name__ == "__main__":
     model, losses = train_model()
 
-    # plot
+    # plot the graph
     plt.plot(losses)
     plt.title("Training Loss")
     plt.xlabel("Epoch")
