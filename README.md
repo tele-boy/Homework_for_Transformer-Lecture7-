@@ -1,4 +1,15 @@
 # Homework_for_Transformer-Lecture7-
+## structure
+    . 
+    ├── main.py
+    ├── README.md
+    ├── Loss function.png
+    └── Licence
+
+## The requirements to run the main.py
+    - Just create a python environment with version == 3.10
+    - And install the module of torch, random and matplotlib
+
 ## 7.1 
 - The Transformer itself does not possess sequential information, and positional encoding is used for:
   * Distinguish tokens in different positions
